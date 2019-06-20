@@ -295,157 +295,103 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration default="false" name="TbUserServiceTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
+  <component name="RunManager" selected="JUnit.TbUserServiceTest.testDelete">
+    <configuration name="TbUserServiceTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-shop-web-admin" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pan.my.shop.web.admin.service.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="my-shop-web-admin" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.pan.my.shop.web.admin.service.test" />
       <option name="MAIN_CLASS_NAME" value="com.pan.my.shop.web.admin.service.test.TbUserServiceTest" />
       <option name="METHOD_NAME" value="testDelete" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="false" name="TbUserServiceTest.testGetById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
+    <configuration name="TbUserServiceTest.testGetById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-shop-web-admin" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pan.my.shop.web.admin.service.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="my-shop-web-admin" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.pan.my.shop.web.admin.service.test" />
       <option name="MAIN_CLASS_NAME" value="com.pan.my.shop.web.admin.service.test.TbUserServiceTest" />
       <option name="METHOD_NAME" value="testGetById" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="false" name="TbUserServiceTest.testMD5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
+    <configuration name="TbUserServiceTest.testMD5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-shop-web-admin" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pan.my.shop.web.admin.service.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="my-shop-web-admin" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.pan.my.shop.web.admin.service.test" />
       <option name="MAIN_CLASS_NAME" value="com.pan.my.shop.web.admin.service.test.TbUserServiceTest" />
       <option name="METHOD_NAME" value="testMD5" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="false" name="TbUserServiceTest.testSelectByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
+    <configuration name="TbUserServiceTest.testSelectByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-shop-web-admin" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pan.my.shop.web.admin.service.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="my-shop-web-admin" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.pan.my.shop.web.admin.service.test" />
       <option name="MAIN_CLASS_NAME" value="com.pan.my.shop.web.admin.service.test.TbUserServiceTest" />
       <option name="METHOD_NAME" value="testSelectByUsername" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="false" name="TbUserServiceTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
+    <configuration name="TbUserServiceTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-shop-web-admin" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pan.my.shop.web.admin.service.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="my-shop-web-admin" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.pan.my.shop.web.admin.service.test" />
       <option name="MAIN_CLASS_NAME" value="com.pan.my.shop.web.admin.service.test.TbUserServiceTest" />
       <option name="METHOD_NAME" value="testUpdate" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="my-shop-web-admin" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
@@ -520,25 +466,23 @@
         </option>
       </method>
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TbUserServiceTest.testDelete" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TbUserServiceTest.testGetById" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TbUserServiceTest.testMD5" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TbUserServiceTest.testSelectByUsername" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TbUserServiceTest.testUpdate" />
+    <list>
+      <item itemvalue="JUnit.TbUserServiceTest.testDelete" />
+      <item itemvalue="JUnit.TbUserServiceTest.testGetById" />
+      <item itemvalue="JUnit.TbUserServiceTest.testMD5" />
+      <item itemvalue="JUnit.TbUserServiceTest.testSelectByUsername" />
+      <item itemvalue="JUnit.TbUserServiceTest.testUpdate" />
+      <item itemvalue="Tomcat Server.my-shop-web-admin" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TbUserServiceTest.testUpdate" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TbUserServiceTest.testSelectByUsername" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TbUserServiceTest.testMD5" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TbUserServiceTest.testGetById" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TbUserServiceTest.testDelete" />
+      <list>
+        <item itemvalue="JUnit.TbUserServiceTest.testUpdate" />
+        <item itemvalue="JUnit.TbUserServiceTest.testSelectByUsername" />
+        <item itemvalue="JUnit.TbUserServiceTest.testMD5" />
+        <item itemvalue="JUnit.TbUserServiceTest.testGetById" />
+        <item itemvalue="JUnit.TbUserServiceTest.testDelete" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
