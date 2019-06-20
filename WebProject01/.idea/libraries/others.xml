@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="others">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/yxdatabase/web/WEB-INF/lib/others" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/yxdatabase/web/WEB-INF/lib/others" recursive="false" />
+  </library>
+</component>

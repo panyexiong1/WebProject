@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <package name="patient" namespace="/" extends="common" strict-method-invocation="false">
+        <action name="patientAction_*" class="com.shu.patient.web.action.patientAction" method="{1}">
+            <!--登录成功-->
+            <result name="success">/WEB-INF/views/home.jsp</result>
+            <!--<result name="success" type="redirectAction">patientAction_findAllPatients</result>-->
+            <!--添加病人基本信息成功-->
+            <result name="addPatientSuccess" type="redirectAction">patientAction_findAllPatients</result>
+            <!--查询所有病人成功-->
+            <result name="findAllPatientsSuccess">/WEB-INF/views/patient_list.jsp</result>
+            <!--<result name="findAllPatientsSuccess">/WEB-INF/pages/patientAllData.jsp</result>-->
+            <!--登录失败，重新登录-->
+            <result name="login" type="redirectAction">userAction_login</result>
+            <!--跳转至添加病人基本信息界面-->
+            <result name="addPatientjsp">/WEB-INF/views/patient_form.jsp</result>
+            <!--根据病人pid查询病人基本信息，用于回显然后修改-->
+            <result name="findPatientByPidSuccess">/WEB-INF/views/patient_edit.jsp</result>
+            <!--修改病人基本信息成功，显示所有病人信息-->
+            <result name="editPatientSuccess" type="redirectAction">patientAction_findAllPatients</result>
+            <!--点击病人ID编号显示详细信息-->
+            <result name="findPatientAllSuccess">/WEB-INF/pages/patientAllData.jsp</result>
+            <!--点击多条件查询，跳转值搜索界面-->
+            <result name="searchJspSuccess">/WEB-INF/views/patient_search.jsp</result>
+            <!--<result name="searchJspSuccess">/WEB-INF/pages/search.jsp</result>-->
+
+            <result name="deleteOnePatientByPidSuccess" type="redirectAction">patientAction_findAllPatients</result>
+
+        </action>
+
+        <action name="patientBingliAction_*" class="com.shu.patient.web.action.patientBingliAction" method="{1}">
+            <!--点击添加病理信息按钮，回显病人基本信息-->
+            <result name="showPatientBingliSuccess">/WEB-INF/views/patient_bingli.jsp</result>
+            <!--<result name="showPatientBingliSuccess">/WEB-INF/pages/addPatientBingli.jsp</result>-->
+            <!--查询此病人的所有病理信息并回显-->
+            <result name="addPatientBingliSuccess" type="redirectAction">patientBingliAction_showPatientBingli</result>
+            <!--查询该病人的该条病理信息，回显，用于修改-->
+            <result name="showOnePatientBingliSuccess">/WEB-INF/views/patient_bingli_edit.jsp</result>
+            <!--<result name="showOnePatientBingliSuccess">/WEB-INF/pages/editPatientBingli.jsp</result>-->
+            <!--修改该病人的该条病理信息-->
+            <result name="editOnePatientBingliSuccess" type="redirectAction">patientBingliAction_showPatientBingli</result>
+            <result name="editOnePatientBinglifail" type="redirectAction">patientBingliAction_showOnePatientBingli</result>
+            <result name="addOnePatientBingliSuccess">/WEB-INF/views/patient_bingli_add.jsp</result>
+            <!--根据bid删除病理信息成功-->
+            <result name="deleteOnePatientBingliSuccess" type="redirectAction">patientBingliAction_showPatientBingli</result>
+        </action>
+
+        <action name="patientPicAction_*" class="com.shu.patient.web.action.patientPicAction" method="{1}">
+            <!--点击添加图像信息按钮，回显病人的基本信息-->
+            <result name="showPatientPicSuccess">/WEB-INF/views/patient_pic.jsp</result>
+            <!--<result name="showPatientPicSuccess">/WEB-INF/pages/addPatientPic.jsp</result>-->
+            <!--添加病人图像信息成功后，查询此病人的所有图像信息并回显-->
+            <result name="addPatientPicSuccess" type="redirectAction">patientPicAction_showPatientPic</result>
+            <!--查询该病人的该条图像信息，回显，用于修改-->
+            <result name="showOnePatientpicSuccess">/WEB-INF/views/patient_pic_edit.jsp</result>
+            <!--<result name="showOnePatientpicSuccess">/WEB-INF/pages/editPatientPic.jsp</result>-->
+            <result name="addOnePatientPicSuccess">/WEB-INF/views/patient_pic_add.jsp</result>
+            <!--删除一条图像信息成功后，查询所有图像信息-->
+            <result name="deleteOnePatientPicSuccess" type="redirectAction">patientPicAction_showPatientPic</result>
+        </action>
+
+        <action name="uploadAction_*" class="com.shu.patient.web.action.uploadAction" method="{1}">
+            <!--<interceptor-ref name="fileUpload">-->
+                <!--<param name="maximumSize">1073741824</param>-->
+            <!--</interceptor-ref>-->
+            <!--上传图像信息成功后，查询此病人的所有图像信息并回显-->
+            <result name="uploadPatientPicSuccess" type="redirectAction">
+                <param name="actionName">patientPicAction_showPatientPic</param>
+                <param name="picpid">${pid}</param>
+            </result>
+            <!--修改该病人的该条图像信息-->
+            <!--<result name="editOnePatientPicSuccess" type="redirectAction">-->
+                <!--<param name="actionName">patientPicAction_showPatientPic</param>-->
+                <!--<param name="picpid">${pid}</param>-->
+            <!--</result>-->
+            <result name="editOnePicSuccess" type="redirectAction">
+                <param name="actionName">patientPicAction_showPatientPic</param>
+                <param name="picpid">${pid}</param>
+            </result>
+        </action>
+
+        <action name="searchAction_*" class="com.shu.patient.web.action.searchAction" method="{1}">
+            <result name="searchSuccess">/WEB-INF/views/patient_search.jsp</result>
+        </action>
+
+        <action name="downloadAction_*" class="com.shu.patient.web.action.downloadAction" method="{1}">
+            <result name="dabaoing">
+                WEB-INF/views/patient_dabao.jsp
+            </result>
+            <result type="stream" name="success">
+                <param name="contentType">application/octet-stream</param>
+                <param name="contentDisposition">attachment;filename=${fileName}</param>
+                <param name="inputName">inputStream</param>
+                <param name="bufferSize">4096</param>
+            </result>
+        </action>
+
+    </package>
+</struts>
